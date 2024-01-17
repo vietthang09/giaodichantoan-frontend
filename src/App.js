@@ -1,5 +1,15 @@
+import { BrowserRouter } from "react-router-dom";
+
+import Navbar from "./components/Navbar"
+
 function App() {
-  return <div className="font-bold">Hello world!</div>;
+  return (
+    <div>
+      <BrowserRouter>
+        <Navbar />
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;
